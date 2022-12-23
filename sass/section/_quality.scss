@@ -1,0 +1,26 @@
+.quality {
+  &.section {
+    padding-bottom: 0px;
+  }
+}
+
+.quality_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality_list-point {
+  width: 264px;
+}
+
+.quality_list-title {
+  margin-bottom: 8px;
+
+  font-weight: var(--title2-weight);
+  font-size: var(--title2-size);
+  line-height: var(--title2-height);
+}
+
+.quality_list-paragraf {
+  color: var(--text-color2);
+}
