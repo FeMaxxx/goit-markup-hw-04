@@ -13,6 +13,18 @@
   width: 264px;
 }
 
+.quality_icon-box {
+  margin-bottom: 8px;
+
+  display: flex;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color3);
+  border-radius: 4px;
+}
+
 .quality_list-title {
   margin-bottom: 8px;
 

@@ -1,5 +1,5 @@
 .our-team {
-  background-color: #f4f4fd;
+  background-color: var(--bg-color3);
 }
 
 .our-team_title {
@@ -40,4 +40,31 @@
 
 .our-team_list-paragraf {
   text-align: center;
+}
+
+.our-team_icon-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.our-team_icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-color);
+  }
+
+  .icon {
+    fill: #ffffff;
+  }
 }
